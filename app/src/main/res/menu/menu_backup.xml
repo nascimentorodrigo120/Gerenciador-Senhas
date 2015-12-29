@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_upload_nuvem"
+        android:title="action_filter"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/action_enviar_email"
+                    android:title="Email"/>
+
+                <item
+                    android:id="@+id/action_enviar_dropbox"
+                    android:title="Dropbox"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

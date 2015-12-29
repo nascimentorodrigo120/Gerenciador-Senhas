@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOME:"
+        android:id="@+id/textView8"
+        android:layout_marginLeft="94dp"
+        android:layout_marginStart="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNomeConta"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN:"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/editTextNomeConta"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2LoginConta"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editTextNomeConta"
+        android:layout_alignEnd="@+id/editTextNomeConta" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonCopyLogin"
+        android:background="@drawable/ic_copiar"
+        android:layout_alignTop="@+id/editText2LoginConta"
+        android:layout_toRightOf="@+id/editText2LoginConta"
+        android:layout_toEndOf="@+id/editText2LoginConta"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENHA:"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/editText2LoginConta"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSenhaConta"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText2LoginConta"
+        android:layout_alignEnd="@+id/editText2LoginConta" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonCopySenha"
+        android:background="@drawable/ic_copiar"
+        android:layout_alignTop="@+id/editTextSenhaConta"
+        android:layout_alignLeft="@+id/imageButtonCopyLogin"
+        android:layout_alignStart="@+id/imageButtonCopyLogin" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/buttonOk"
+        android:layout_below="@+id/editTextSenhaConta"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

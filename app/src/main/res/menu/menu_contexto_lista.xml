@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:id="@+id/menu_item_acessar"
+    android:title="Acessar" />
+
+    <item android:id="@+id/menu_item_editar"
+    android:title="Editar" />
+
+    <item android:id="@+id/menu_item_excluir"
+    android:title="Excluir"
+      />
+
+</menu>
