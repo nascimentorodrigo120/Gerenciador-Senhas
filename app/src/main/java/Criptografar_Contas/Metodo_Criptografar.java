@@ -10,8 +10,8 @@ import Modelo.Contas;
  */
 public class Metodo_Criptografar {
 
-    public static final String CHAVE_64Bits  = "Acnln23n12l25$¨4C$%bDDB$FS%$V4esrtsgfcsw tsw4e4e$E $@SR@es43w3w¨!$";
-    public static final String CHAVE_100Bits = "Aufnchflnvmcncvnldasjojdndasdllcnln23n12l25$¨4C$%bDDB$FS%$SSDVSDV4esrtsgfcsw tsw4e4e$E $@SR@es43w3w¨!$";
+    public static final String CHAVE_64Bits  = "Acnln23n12l25$¨4C$%bDDB$FS";
+    public static final String CHAVE_100Bits = "Aufnchflnvmcncvnldasjojdndasdllcnln23n12l25$¨4";
 
 
 
